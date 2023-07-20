@@ -1,0 +1,19 @@
+Python - OOPS
+
+Inheritance
+In Python, inheritance is a powerful object-oriented programming concept that allows you to define a new class based on an existing class, called the base or parent class. The new class, called the derived or child class, inherits the properties and behaviors of the parent class, allowing you to reuse code and create more specialized classes.
+
+There are different types of inheritance in Python, each with its own characteristics.
+
+1). Single Inheritance: single parent class and a single child class
+2). Multiple Inheritance: Multiple inheritance allows a child class to inherit from multiple parent classes
+3). Multilevel Inheritance: Multilevel inheritance involves a chain of inheritance, where a derived class inherits from another derived class.
+4). Hierarchical Inheritance: Hierarchical inheritance involves multiple derived classes inheriting from a single base or parent class
+5). Hybrid Inheritance: Hybrid inheritance is a combination of multiple types of inheritance. It combines features of single, multiple, multilevel, or hierarchical inheritance to create complex class hierarchies based on the specific requirements of a program
+
+Polymorphism:
+It is another fundamental concept in object-oriented programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. It refers to the ability of an object to take on many forms or have multiple behaviors.
+
+1). Method Overriding:Method overriding occurs when a subclass provides its own implementation of a method that is already defined in its parent class. The subclass method overrides the behavior of the parent class method with its own implementation
+
+2). Method Overloading: Method overloading is the ability to define multiple methods with the same name but with different parameters or arguments

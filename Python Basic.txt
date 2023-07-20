@@ -1,0 +1,194 @@
+Data types: 
+1). Category of data
+2). every object in python has data types
+3). Data types are actually classes & variables are object of classes
+
+
+* Primitive Data type & Non Primitive Datatype
+
+	- Primitive Datatype - Stores Single value (Eg: Int,float,complex,Boolean,Dictionary(key),String))
+	- Non-Primitive Datatype - Stores Multiple values (Eg: List, tuple, Dictionary(value), Sets)
+
+*Types of data types:
+
+1). [DT]-----Numerica types - Int, float, Complex
+2). [DT]-----Text types - String
+3). [DT,DS]--Sequence types - list, tuple, range
+4). [DT,DS]--set types - set, frozenset
+5). [DT,DS]--Mapping type - dict
+6). [DT]-----boolean type - bool
+7). [DT]-----None type - none
+
+----------------NUMERIC DATA TYPES----------------------
+
+1). Integer(int) - 
+	- Numeric types
+	- contains integers
+	- can be any length
+	- ex: ...-3,-2,-1,0,1,2,3...
+2). float - 
+	- Numeric type
+	- floating point number ex:(99.26)
+	- accurate upto 15 decimal places
+	- ex: 3.2, 4.0, 8.9, -12.3
+	- exponential data falls under float class. ex: (2e7) = 2*(10^7) = where 2 is called mantisa 7 is exponent
+3). Complex-
+	-written in the form of a+bj
+	- a is real part it can be integer/float
+	- bj is imaginary part it can be integer/float
+	- ex: (5+4j)
+
+-------------------TEXT DATA TYPES-------------- 
+
+1). String -
+	- Sequence of characters.
+	- Anything enclosed in quotes.
+	- triple quotes are used for multi-line strings - """ 
+	- ex: "INDIA"
+	-Supports Positive indexing(0, 1, 2, 3, 4....) & negative indexing (.....-5,-4,-3,-2,-1)
+
+Eg: Country = "INDIA"
+
+
+		<<<<-----Negative Index-----------
+		-5	-4	-3	-2	-1
+
+		'I'	'N'	'D'	'I'	'A'
+
+		 0	 1	 2	 3	 4
+		----------PositiveIndex------>>>>>
+
+	Result:1			Result:2
+	Input: Country[2]		Input: Country[-3]
+	Output: D			Output : D
+
+
+---------------Sequence Datatypes------------------
+
+1). List - 
+	- List of data's having different data types.
+	- Ordered, mutable, sequence of items
+	- items seperated by commas enclosed in [].
+
+Example: 
+
+my_list = ['facebook', 12.5, 300, 2+3j, [1,2,3]]
+
+
+		<<<<-----------Negative Index-----------
+		-5	 -4	 -3	 -2	  -1
+
+	    'facebook'	12.5	 300	 2+3j	 [1,2,3]
+
+		 0	 1	  2	  3	   4
+		---------------PositiveIndex------>>>>>
+
+2). tuple -
+	-Collection of different data types.
+	-immutable, ordered
+	-Items are seperated with comma and enclosed in ().
+	-Example: t = (12, 10.5, 'hello')
+
+3). Range-
+	- it gives immutable sequence of numbers between start and stop.
+	- Syntax :- range(start,stop,step)
+	- Default strting is 0 and step is 1.
+	- Ex. range(0,11) -> 0,1,2.....10
+
+	  I/p - print(list(range(1,10)))
+	  O/p - [1, 2, 3, 4, 5, 6, 7, 8, 9]-------here last index value considered as (N-1) =10-1 =9.
+
+	  I/p - print(list(range(1,10,3)))
+	  O/p - [1, 4, 7,]
+--------------Mapping Datatype---------------------
+
+1). Dictionary -
+	- Unordered set of key-value pair's.
+	- key has primitive data type & value has any data types.
+	- key value pair's are seperated by comma.
+	- Ex: d = { sachin : 100, kohli : 90, dhoni : 90}
+
+-----------------Set Datatypes----------------------
+
+1). Sets -
+	- Unordered collections of unique items.
+	- Items are written inside {} and seperated by commas.	
+	- Items are not in order.
+	- Ex. a = {1,2,3,4,"hello"}
+	- repeated elements printed once.
+	
+------------------None DataType-----------------------
+
+1). None-
+	- None datatype	means an object that doesn't containany value.
+	- Ex. a = none.
+
+-------------------Boolean Datatype--------------------
+
+1). Bool-
+	- Two Values , True and False.
+	- Used to determine given sattements are tru or false.
+	- True is non-zero and flse is 0.
+	- Ex. a = True.
+
+******************************************************************************************
+
+-----------------------Data structures----------------------------- 
+
+1). Build-in.. 
+	- list
+	- tuple
+	- dict
+	- set
+
+2). User defined - Stack,Queue, Tree, Linked list, Graph, HahMap
+
+
+******************************************************************************************
+
+Operators:
+
+Operators or symbols used to carryout operation on operands
+for eg: 2 + 3
+ 
+2 & 3 are operands 
++ is operator
+
+operators used to perform operations on variables,literals,values
+
+types of Operators:
+
+1). Aritmetic =  [ + , - , * , / , ** , %(remainder) , //(floor division)]
+2). Comparision = ( > < == <= >= != )
+3). Assignment & compound = ( = += )
+4). Bitwise = ( & | ^ ~ << >> )
+5). logical = ( AND, OR, NOT )-------used in data structures
+6). Membership = (in, not in)-------used in variables & data structures
+
+---------------Arithmetic Operators-----------------------
+
+ - Operators which perform arithmetic operations on two or more operands.
+
+[ + ] -------Addition
+[ - ] -------Substraction
+[ * ] -------Multiplication
+
+[ / ] -------Division = returns output if floating point values present 
+
+	for eg: Input = (18/4) = 	Output = 4.5 (returns floating value also)
+
+[ **] -------Exponential = 
+	
+	for eg: Input = (2**3) = 2^3        Output =(8)
+							  
+[ % ] ------Modulus/remainder = 
+				   __
+	for eg: Input = (18%4) = 4|18    Output = (2)
+
+[ //]-(floor division) = returns output in roundoff and eliminates floating values.
+
+	for eg: Input = (18.0//4)		Output = (4.0)
+
+
+----------------Comparision Operators---------------------
+
